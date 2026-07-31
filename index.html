@@ -24,7 +24,7 @@
 
   <!-- Put your site title here -->
   <title>
-    Syed Ali Hussnain | A Web Developer based in Lahore, Pakistan.
+    Сергей Ойзерович | Специалист по кибербезопасности (пентестер), Российская Федерация Новосибирск.
   </title>
 
   <meta name="description" content="Add small description of yourslef.">
@@ -41,13 +41,13 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#Практика" class="nav__link">Практика</a></li>
+          <!--<li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
           <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
+            <a href="#Обо мне" class="nav__link">Обо мне</a>
           </li>
           <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
+            <a href="#Контакты" class="nav__link">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -56,45 +56,48 @@
       <div class="header__text">
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
-          <span>Syed Ali Hussnain</span>
+          <span>Сергей Ойзерович</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <p>Специалист по кибербезопасности (пентестер), Российская Федерация Новосибирск</p>
+        <a href="#Контакты" class="btn btn--pink">Контакты</a>
       </div>
     </div>
   </header>
 
   <main role="main">
 
-    <!-- ***** Work ***** -->
+    <!-- ***** Практика ***** -->
 
-    <section class="work" id="work">
+    <section class="Практика" id="Практика">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>Практика</h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
+              <h3>Практика</h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                Во время учебы были затронуты основные темы: 
               </p>
               <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
+                <li>Сканирование и разведка информационных систем;</li>
+                <li>Уязвимости клиентской и серверной части;</li>
+                <li>Безопасность ОС Linux;</li>
+                <li>Атаки на сетевые сервисы, сети;</li>
+                <li>Privilege Escalation;</li>
+                <li>Способы и методы защит от кибератак.
+                  </li>
               </ul>
 
               <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+                <a href="#" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
@@ -105,10 +108,14 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>Разбор серверных и клиентских уязвимостей</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Уязвимости серверной и клиентской сторон представляют
+                собой слабые места в программном обеспечении, конфигурации систем
+                или процессах, которые могут быть использованы злоумышленниками для
+                несанкционированного доступа, утечки данных, отказа в обслуживании 
+                или других атак. Рассмотрим ключевые типы уязвимостей для каждой 
+                категории и методы их устранения.
               </p>
               <ul class="work__list">
                 <li>React</li>
@@ -118,9 +125,7 @@
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
+                <a href="https://github.com/rois-00/SQLi" class="link__text" target="_blank">Visit Site <span>&rarr;</span></a>
                 <a href="#">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
@@ -133,10 +138,11 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Notificator</h3>
+              <h3>Разбор Privilege Escalation</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                это ситуация, когда пользователь или процесс получает 
+                доступ к ресурсам или функциям, которые изначально 
+                для него закрыты.
               </p>
               <ul class="work__list">
                 <li>React</li>
@@ -146,30 +152,57 @@
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://github.com/rois-00/Privilege-Escalation" class="link__text" target="_blank">Visit Site <span>&rarr;</span></a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
+              </div>
+            </div>
+            
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Расследование заражения на одном из серверов у хостинг 
+                провайдера в роли blue team; 
+              </h3>
+              <p>
+                Итоговый проект
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/rois-00/final-work" class="link__text" target="_blank">Visit Site <span>&rarr;</span></a>
                 <a href="#">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
             </div>
           </div>
+
         </div>
       </div>
     </section>
 
     <!-- ***** Clients ***** -->
 
-    <section class="client" id="clients">
+    <!--<section class="client" id="clients">
       <div class="row">
         <h2>Clients</h2>
-        <div class="client__logos">
+        <div class="client__logos">-->
           <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+          <!--<img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
           <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
           <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
           <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
@@ -178,50 +211,54 @@
         </div>
       </div>
     </section>
+  -->
+    <!-- ***** Обо мне ***** -->
 
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
+    <section class="Обо мне" id="Обо мне">
       <div class="row">
-        <h2>About Me</h2>
+        <h2>Обо мне</h2>
         <div class="about__content">
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+              В июле 2026 года успешно закончил курс по направлению “Специалист по 
+              кибербезопасности (этичный хакер – пентестер)” на учебной платформе “Skillfactory” и 
+              защитил итоговый проект. Ранее в 2023 году закончил курс по направлению 
+              “Системный администратор Linux” с получением диплома об успешной защите. Во 
+              время учебы получил значительный опыт в области администрирования 
+              операционных систем Linux и подкрепил свои знания в области защиты 
+              информационных систем, с помощью применения тестов на проникновение, нахождение 
+              уязвимостей в системах и способах их устранения.
             </p>
             <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
+            <a href="#" class="btn">Портфолио</a>
           </div>
 
           <div class="about__photo-container">
             <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+            <img class="about__photo" src="./images/мое_фото.jpg" alt="" />
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- ***** Contact ***** -->
+  <!-- ***** Контакты ***** -->
 
-  <section class="contact" id="contact">
+  <section class="Контакты" id="Контакты">
     <div class="row">
-      <h2>Get in Touch</h2>
+      <h2>#Контакты</h2>
       <div class="contact__info">
-        <p>
+       <!-- <p>
           Are you looking for a fast-performing and user-friendly website to
           represent your product or business? or looking for any kind of
           consultation? or want to ask questions? or have some advice for me
           or just want to say "Hi 👋" in any case feel free to Let me know. I
           will do my best to respond back. 😊 The quickest way to reach out to
           me is via an email.
-        </p>
+        </p>   -->
         <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <a href="mailto:oizceleo@mail.ru" class="btn">oizceleo@mail.ru</a>
       </div>
     </div>
   </section>
@@ -233,23 +270,18 @@
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          <a href="https://t.me/SergeyO" title="Link to Telegram Profile">
+            <img src="./images/telegram.svg" class="footer__social-image" alt="Telegram">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+          <a href="https://max.ru/Sergey" title="Link to Telegram Profile">
+            <img src="./images/max.svg" class="footer__social-image" alt="Max">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/rois-00/" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
       </ul>
